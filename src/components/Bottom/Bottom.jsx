@@ -7,7 +7,7 @@ import instagram from "../../images/icon-instagram.svg";
 
 const Bottom = () => {
   return (
-    <div className="bottom container">
+    <div className="bottom ">
         <div className="container bottom_container">
 
             <div className="first">

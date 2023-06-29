@@ -2,7 +2,8 @@ import mockups from "../../images/image-mockups.png";
 import bgImage from "../../images/bg-intro-desktop.svg"
 const Hero = () => {
   return (
-    <div className="hero container">
+    <div className=" ">
+        <div className="container hero">
         <div className="left_hero ">
             <div className="hero_content">
                 <h1 className="hero_title">Next generation digital banking</h1>
@@ -22,7 +23,7 @@ const Hero = () => {
                     <img className="hero_img" src={mockups} alt="phone mockups" />
                 </div>
             </div>
-
+        </div>
         
     </div>
   )

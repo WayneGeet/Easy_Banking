@@ -82,7 +82,7 @@ img{
   transition:opacity 400ms linear;
 }
 
-.btn_primary:hover{
+.btn_primary:hover, .btn_secondary:hover{
   opacity:0.8;
 }
 
@@ -155,7 +155,7 @@ img{
   align-items: center;
   height:85vh;
   padding-inline:3rem;
-  overflow:hidden;
+  /* overflow:hidden; */
 }
 
 .hero_title{
@@ -375,6 +375,9 @@ h3{
   /* mix-blend-mode: multiply; */
 }
 
+.hello .btn_secondary{
+  margin-bottom:1rem;
+}
 
 
 
